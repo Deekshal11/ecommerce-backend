@@ -12,7 +12,7 @@ const CategoryProducts = () => {
   const [totalPages, setTotalPages] = useState(1);
 
   const API_BASE_URL =
-    import.meta.env.VITE_API_BASE_URL || "http://16.16.63.62:3000/api";
+    import.meta.env.VITE_API_BASE_URL || "http://13.50.249.171:3000/api";
 
   useEffect(() => {
     if (categorySlug) {
